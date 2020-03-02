@@ -1,18 +1,21 @@
 @import "../../../globalStyles/scss/variables.scss";
 
 .main-menu {
+  padding-top: 25px;
   align-items: center;
   align-items: stretch;
-  background-color: $white;
+  background-color: $sturdy_grey;
   border-bottom: 1px solid $gray-light;
   display: flex;
   flex-direction: row;
-  height: 3.55rem;
+  flex-wrap: wrap;
+  height: 12.5rem;  //3.55rem;
   position: relative;
 
   &__left {
     flex-basis: calc(50% - 2rem);
-
+    flex: 50% 1 1;
+    order: 2;
     @media (min-width: $small-screen) {
       flex-basis: calc(50% - 4rem);
     }
@@ -26,7 +29,8 @@
 
   &__right {
     flex-basis: calc(50% - 2rem);
-
+    flex: 50% 1 1;
+    order: 2;
     @media (min-width: $small-screen) {
       flex-basis: calc(50% - 4rem);
     }
@@ -39,7 +43,11 @@
   }
 
   &__center {
-    align-self: center;
+    flex: 100% 1 1;
+    order: 1;
+    text-align: center;
+
+    //align-self: center;
 
     svg {
       width: 4rem;
