@@ -15,3 +15,7 @@ export const orderHistoryUrl = `${baseUrl}order-history/`;
 export const addressBookUrl = `${baseUrl}address-book/`;
 export const paymentOptionsUrl = `${baseUrl}payment-options/`;
 export const passwordResetUrl = `${baseUrl}reset-password/`;
+
+/* Custom Paths */
+export const about = `${baseUrl}about/`;
+export const faq = `${baseUrl}faq/`;

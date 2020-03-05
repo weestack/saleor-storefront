@@ -16,6 +16,8 @@ import { SearchPage } from "../../views/Search";
 
 import { PasswordReset } from "../../@next/components/views";
 
+import { About, FAQ }  from "../../views/BasePages/View";
+
 import * as paths from "./paths";
 
 export const Routes: React.FC = () => (
@@ -38,6 +40,8 @@ export const Routes: React.FC = () => (
     <Route path={paths.addressBookUrl} component={Account} />
     <Route path={paths.paymentOptionsUrl} component={Account} />
     <Route path={paths.passwordResetUrl} component={PasswordReset} />
+    <Route path={paths.about} component={About} />
+    <Route path={paths.faq} component={FAQ} />
     <Route component={NotFound} />
   </Switch>
 );
