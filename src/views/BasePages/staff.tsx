@@ -1,16 +1,16 @@
-const philBays = require("./images/201312201147194574.jpg");
-const wesBays = require("./images/Wes-bays.jpg");
+const philBays = require("images/sturdy-lite/staff/201312201147194574.jpg");
+/*const wesBays = require("images/sturdy-lite/staff/Wes-bays.jpg");
 const chadBays = "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png";
-const shariBarron = require("./images/Shari-Barron.jpg");
-const bonnie = require("./images/Bonnie-Copley.jpg");
-const mullins = require("./images/G.W.-Mullins.jpg");
-const sproles = require("./images/Kennetha-Sproles.jpg");
-const wales = require("./images/Josey-Wales.jpg");
-const bryson = require("./images/Shane-Bryson.jpg");
-const callahan = require("./images/Johnny-Callahan.jpg");
-const hamby = require("./images/Tony-Hamby.jpg");
-const miller = require("./images/Mark-Miller.jpg");
-const kennyMullins = require("./images/Kenny-Mullins.jpg");
+const shariBarron = require("images/sturdy-lite/staff/Shari-Barron.jpg");
+const bonnie = require("images/sturdy-lite/staff/Bonnie-Copley.jpg");
+const mullins = require("images/sturdy-lite/staff/G.W.-Mullins.jpg");
+const sproles = require("images/sturdy-lite/staff/Kennetha-Sproles.jpg");
+const wales = require("images/sturdy-lite/staff/Josey-Wales.jpg");
+const bryson = require("images/sturdy-lite/staff/Shane-Bryson.jpg");
+const callahan = require("images/sturdy-lite/staff/Johnny-Callahan.jpg");
+const hamby = require("images/sturdy-lite/staff/Tony-Hamby.jpg");
+const miller = require("images/sturdy-lite/staff/Mark-Miller.jpg");
+const kennyMullins = require("images/sturdy-lite/staff/Kenny-Mullins.jpg");*/
 
 export const staff = [
   {
@@ -19,7 +19,7 @@ export const staff = [
     order: 1,
     position: "Sales Manager",
   },
-  {
+  /*{
     image: wesBays,
     name: "Wes Bays",
     order: 2,
@@ -91,7 +91,7 @@ export const staff = [
     name: "Kenny Mullins",
     order: 9,
     position: "Cab Rack Department Leader",
-  },
+  },*/
 
 
 
