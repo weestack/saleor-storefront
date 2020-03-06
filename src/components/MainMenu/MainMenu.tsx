@@ -82,7 +82,7 @@ const MainMenu: React.FC = () => {
                       )}
                     />
                     <Media
-                      query={{ minWidth: mediumScreen }}
+                      query={{ minWidth: smallScreen }}
                       render={() =>
                         items.map(item => (
                           <li
