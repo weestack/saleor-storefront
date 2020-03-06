@@ -16,7 +16,7 @@ import { SearchPage } from "../../views/Search";
 
 import { PasswordReset } from "../../@next/components/views";
 
-import { About, FAQ }  from "../../views/BasePages/View";
+import { About, FAQ, Services }  from "../../views/BasePages/View";
 
 import * as paths from "./paths";
 
@@ -42,6 +42,7 @@ export const Routes: React.FC = () => (
     <Route path={paths.passwordResetUrl} component={PasswordReset} />
     <Route path={paths.about} component={About} />
     <Route path={paths.faq} component={FAQ} />
+    <Route path={paths.services} component={Services} />
     <Route component={NotFound} />
   </Switch>
 );

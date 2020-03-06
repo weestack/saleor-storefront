@@ -6,6 +6,10 @@
   text-align: center;
   line-height: 1;
   padding-bottom: 50px;
+  font-size: $h1_small_screen;
+  @media screen and (min-width: $medium-screen) {
+    font-size: $h1-font-size;
+  }
 }
 
 @mixin section_settings {
@@ -333,5 +337,46 @@ i {
 
   .animateOut {
     animation: accordionOut 0.45s alternate ease-in-out both 1;
+  }
+
+
+
+  .Services__Section {
+    @include section_settings;
+
+    h1 {
+      @include h1_style;
+    }
+    p {
+      line-height: 1.5em;
+      margin-bottom: 1rem;
+    }
+
+    .bullet__list {
+      margin: 50px 0;
+      .bullet {
+        position: relative;
+        margin-bottom: 1.5rem;
+        padding-left: 2.5rem;
+        &::before {
+          content: "";
+          display: flex;
+          border-radius: 50%;
+          background-color: $sturdy_blue;
+          height: 1rem;
+          width: 1rem;
+          position: absolute;
+          left: 0;
+          top: 0.125rem;
+          align-items: center;
+          justify-content: center;
+          transform: rotate(90deg);
+          color: white;
+          font-size: 1.2rem;
+        }
+
+      }
+    }
+
   }
 

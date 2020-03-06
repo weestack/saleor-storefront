@@ -19,3 +19,4 @@ export const passwordResetUrl = `${baseUrl}reset-password/`;
 /* Custom Paths */
 export const about = `${baseUrl}about/`;
 export const faq = `${baseUrl}faq/`;
+export const services = `${baseUrl}services/`;
