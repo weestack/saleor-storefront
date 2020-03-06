@@ -1,5 +1,6 @@
 const philBays = require("../../images/sturdy-lite/staff/201312201147194574.jpg");
 const wesBays = require("../../images/sturdy-lite/staff/Wes-bays.jpg");
+const chadBays = "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png";
 
 const shariBarron = require("../../images/sturdy-lite/staff/Shari-Barron.jpg");
 const bonnie = require("../../images/sturdy-lite/staff/Bonnie-Copley.jpg");
@@ -8,7 +9,7 @@ const sproles = require("../../images/sturdy-lite/staff/Kennetha-Sproles.jpg");
 const wales = require("../../images/sturdy-lite/staff/Josey-Wales.jpg");
 const bryson = require("../../images/sturdy-lite/staff/Shane-Bryson.jpg");
 const callahan = require("../../images/sturdy-lite/staff/Johnny-Callahan.jpg");
-const campbell = require("../../images/sturdy-lite/staff/Jason-Campbell.jpg");
+/*const campbell = require("../../images/sturdy-lite/staff/Jason-Campbell.jpg");*/
 const hamby = require("../../images/sturdy-lite/staff/Tony-Hamby.jpg");
 const miller = require("../../images/sturdy-lite/staff/Mark-Miller.jpg");
 const kennyMullins = require("../../images/sturdy-lite/staff/Kenny-Mullins.jpg");
@@ -25,6 +26,12 @@ export const staff = [
     name: "Wes Bays",
     order: 2,
     position: "Outside Sales",
+  },
+  {
+    image: chadBays,
+    name: "Chad Bays",
+    order: 3,
+    position: "Sales Manager",
   },
   {
     image: shariBarron,
@@ -69,12 +76,12 @@ export const staff = [
     order: 9,
     position: "Shipping Department Leader",
   },
-  {
+  /*{
     image: campbell,
     name: "Jason Campbell",
     order: 9,
     position: "Ramp Department Leader",
-  },
+  },*/
   {
     image: hamby,
     name: "Tony Hamby",
