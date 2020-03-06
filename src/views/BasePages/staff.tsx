@@ -1,5 +1,5 @@
 const philBays = require("images/sturdy-lite/staff/201312201147194574.jpg");
-const wesBays = require("images/sturdy-lite/staff/Wes-bays.jpg");
+const wesBays = require("images/sturdy-lite/staff/Wes-Bays.jpg");
 const chadBays = "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png";
 const shariBarron = require("images/sturdy-lite/staff/Shari-Barron.jpg");
 const bonnie = require("images/sturdy-lite/staff/Bonnie-Copley.jpg");
