@@ -20,16 +20,16 @@ export const staff = [
     position: "Sales Manager",
   },
   {
-    image: wesBays,
-    name: "Wes Bays",
-    order: 2,
-    position: "Outside Sales",
-  },
-  {
     image: chadBays,
     name: "Chad Bays",
     order: 3,
     position: "Sales Manager",
+  },
+  {
+    image: wesBays,
+    name: "Wes Bays",
+    order: 2,
+    position: "Outside Sales",
   },
   {
     image: shariBarron,
