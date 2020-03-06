@@ -13,6 +13,13 @@
   position: relative;
 
 
+  .main-menu__user--active {
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    background: $sturdy_blue;
+    color: white;
+  }
+
   img.logo {
     max-width: 100%;
   }

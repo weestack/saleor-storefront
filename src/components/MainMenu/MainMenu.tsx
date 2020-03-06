@@ -32,7 +32,7 @@ import hamburgerHoverImg from "../../images/hamburger-hover.svg";
 import hamburgerImg from "../../images/hamburger.svg";
 import searchImg from "../../images/search.svg";
 import logoImg from "../../images/sturdy-lite/logo-1-1.png";
-import userImg from "../../images/user.svg";
+/*import userImg from "../../images/user.svg";*/
 
 const MainMenu: React.FC = () => {
   const { data: user } = useUserDetails();
@@ -82,7 +82,7 @@ const MainMenu: React.FC = () => {
                       )}
                     />
                     <Media
-                      query={{ minWidth: smallScreen }}
+                      query={{ minWidth: mediumScreen }}
                       render={() =>
                         items.map(item => (
                           <li
@@ -119,7 +119,8 @@ const MainMenu: React.FC = () => {
                         <MenuDropdown
                           head={
                             <li className="main-menu__icon main-menu__user--active">
-                              <ReactSVG path={userImg} />
+                              <p>My Account</p>
+                              {/*<ReactSVG path={userImg} />*/}
                             </li>
                           }
                           content={
@@ -164,7 +165,8 @@ const MainMenu: React.FC = () => {
                             )
                           }
                         >
-                          <ReactSVG path={userImg} />
+                          <p>My Account</p>
+                          {/*<ReactSVG path={userImg} />*/}
                         </li>
                       )}
                     </>
