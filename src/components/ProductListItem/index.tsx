@@ -8,8 +8,6 @@ import { Thumbnail } from "@components/molecules";
 import { TaxedMoney } from "../../@next/components/containers";
 import { BasicProductFields } from "../../views/Product/types/BasicProductFields";
 
-import { useUserDetails } from "@sdk/react";
-
 export interface Product extends BasicProductFields {
   category?: {
     id: string;
@@ -52,9 +50,6 @@ const ProductListItem: React.FC<ProductListItemProps> = ({ product }) => {
   const price = product.pricing.priceRange.start;
   const priceUndiscounted = product.pricing.priceRangeUndiscounted.start;
 
-
-  const { data: user } = useUserDetails();
-
   const getProductPrice = () => {
     if (isEqual(price, priceUndiscounted)) {
       return <TaxedMoney taxedMoney={price} />;
@@ -77,12 +72,7 @@ const ProductListItem: React.FC<ProductListItemProps> = ({ product }) => {
       </div>
       <h4 className="product-list-item__title">{product.name}</h4>
       <p className="product-list-item__category">{category.name}</p>
-      {user ? (
-        <p className="product-list-item__price">{getProductPrice()}</p>
-      ):(
-        <></>
-      )}
-
+      <p className="product-list-item__price">{getProductPrice()}</p>
     </div>
   );
 };

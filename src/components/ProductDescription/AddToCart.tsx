@@ -13,6 +13,12 @@ const AddToCart: React.FC<{
   onSubmit: () => void;
 }> = ({ disabled, lines, onSubmit }) => {
   const { data: user } = useUserDetails();
+  // Disable ability to buy products when not logged in
+  if (!user) {
+    disabled = true;
+  }
+  ;
+
   return (
     <CheckoutContext.Consumer>
       {({ checkout, update, loading: checkoutLoading }) => (
@@ -40,7 +46,12 @@ const AddToCart: React.FC<{
               }}
               disabled={disabled || mutationLoading || checkoutLoading}
             >
-              Add to basket
+              {user ? (
+                "Add to basket"
+              ) : (
+
+                "Login to buy"
+              )}
             </AddToCartButton>
           )}
         </TypedCreateCheckoutMutation>
