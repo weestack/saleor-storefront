@@ -11,7 +11,7 @@ import {
   ProductsList_categories,
   ProductsList_shop,
   ProductsList_shop_homepageCollection_backgroundImage,
-} from "./types/ProductsList";
+} from "./gqlTypes/ProductsList";
 
 import { structuredData } from "../../core/SEO/Homepage/structuredData";
 
@@ -43,12 +43,12 @@ const Page: React.FC<{
         <div className="home-page__hero-text">
           <div>
             <span className="home-page__hero__title">
-              <h1>Sturdy-Lite</h1>
+              <h1>Final reduction</h1>
             </span>
           </div>
           <div>
             <span className="home-page__hero__title">
-              <h1>World Class Truck Equipment</h1>
+              <h1>Up to 70% off sale</h1>
             </span>
           </div>
         </div>

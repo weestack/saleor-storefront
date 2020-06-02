@@ -8,8 +8,6 @@ $sturdy_sand: #CBB772;
 $sturdy_baige: #F6DDC7;
 //$sturdy_font_family: ;
 /* end custom set colors */
-
-
 $base-font-color: #323232;
 $black: #000;
 $blue-dark: #190c4e;
@@ -18,7 +16,7 @@ $gray-dark: #7d7d7d;
 $gray-light: #f6f6f6;
 $gray: #c4c4c4;
 $green: #3ed256;
-$rose: #c22d74;
+$rose: #fe6e76;
 $turquoise-dark: $sturdy_blue;  // #55c4b3;
 $turquoise-light: #f1f5f5;
 $turquoise: $sturdy_blue; //#51e9d2;
@@ -107,5 +105,5 @@ $modal-min-height: 455px;
 
 :export {
   mediumScreen: $medium-screen;
-  smallScreen: $extra-small-screen // $small-screen;
+  smallScreen: $small-screen;
 }
